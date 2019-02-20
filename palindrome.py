@@ -23,13 +23,13 @@ text = str(input(
 #remove spaces
 #letters = ""
 
-#def palindrome(text):
+#def palindrome_iterative(text):
   #  """Test to see if the text is a palindrome."""
 
     #letters = text.split(" ")
     #print("letters" + str(letters))
 #only keeps letters
-
+#def palindrome(text):
 def palindrome_recursive(text):
     """In order to see if the text you recevied was a palindrom run it so that you call the function everytime you evaluate a letter in the string."""
     letters = only_letters(text)
@@ -61,7 +61,7 @@ def palindrome_recursive(text):
        # else: 
             #return True
 #call it to be printed at the end
-#if palindrome(text):
+#if palindrome_iterative(text):
  #   print("this is a palindrome")
 #else:
   #  print("this is not a palindrome")
